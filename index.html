@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zxc/main.css">
+    <link rel="icon" type="png" href="img/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+ 
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>My Resume</title>
+</head>
+<body>
+    <div class="nav" id="navbar">
+        <div class="logo">
+            <img onclick="tuchUp()" src="img/LogoSite.png " alt="" class="logotwice">
+            <h2>Resume</h2>
+        </div>
+        <div class="navigation">
+            <p class="p_nav">My skill</p>
+            <p class="p_nav">Config</p>
+            <p class="p_nav">My Work</p>
+            <p class="p_nav">Contact</p>
+        </div>
+        <div class="contacts_img">
+            <a href="https://discord.gg/wYNsyyWvv6">
+                <img src="img/discord.png" class="img_cont" href="" alt="">
+            </a>
+            <div class="partition"></div>
+            <a href="https://steamcommunity.com/profiles/76561199210662219/">
+                <img src="img/steam.png" class="img_cont" alt="">
+            </a>
+            <div class="partition"></div>
+            <a href="https://github.com/De1ta2345">
+                <img src="img/github.png" class="img_cont" alt="">
+            </a>
+            <div class="partition"></div>
+            <img src="img/settings.png" class="img_cont" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="header">
+            <div class="head_text">
+                <h1 class="head_h2_1">My Resume</h1>
+                <h2 class="head_h2_2">Resume to present my skills and works.</h2>
+                <p class="head_p">Here I want to demonstrate my skills, work and knowledge.</p>
+                <div class="head_buttons">
+                    <button id="clickButton" class="button_style_1">Button 1</button>
+                    <a href="aboutme.html"><button id="clickButton" class="button_style_1 button_style_2">About me</button></a>
+                    <button id="clickButton" class="button_style_1 button_style_2">Get help</button>
+                    <button id="clickButton2" class="button_style_1" onclick="Mfp()">MFP</button>
+                </div>
+            </div>
+            <div class="head_logo">
+                <img id="clickFox" class="cute_img" src="img/FoxCute.png" alt="" onclick="TuchFox(), shakeElement(this)">
+                <div class="block_blur"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_skills">
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton1" data-width="90%"><span class="emoji">📕</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar1" class="scale"></div>
+                        </div>
+                        <p id="progress1">0%</p>
+                    </div>
+                    <p class="p_white">Knowledge of programming languages</p>
+                    <p>Out-of-the-box support for TypeScript, JSX, CSS and more.</p>
+                </div>
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton2" data-width="70%"><span class="emoji">🖌️</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar2" class="scale"></div>
+                        </div>
+                        <p id="progress2">0%</p>
+                    </div>
+                    <p class="p_white">Web Design Skills</p>
+                    <p>On demand file serving over native ESM, no bundling required!</p>
+                </div>
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton3" data-width="60%"><span class="emoji">📦</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar3" class="scale"></div>
+                        </div>
+                        <p id="progress3">0%</p>
+                    </div>
+                    <p class="p_white">Optimized Build</p>
+                    <p>Pre-configured Rollup build with multi-page and library mode support.</p>
+                </div>
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton4" data-width="80%"><span class="emoji">⚙️</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar4" class="scale"></div>
+                        </div>
+                        <p id="progress4">0%</p>
+                    </div>
+                    <p class="p_white">Universal Plugins</p>
+                    <p>Rollup-superset plugin interface shared between dev and build.</p>
+                </div>
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton5" data-width="66%"><span class="emoji">📊</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar5" class="scale"></div>
+                        </div>
+                        <p id="progress5">0%</p>
+                    </div>
+                    <p class="p_white">Lightning Fast HMR</p>
+                    <p>Hot Module Replacement (HMR) that stays fast regardless of app size.</p>
+                </div>
+                <div class="skill_1">
+                    <div class="ranked">
+                        <div class="main_icon" id="startAnimationButton6" data-width="100%"><span class="emoji">🔥</span></div>
+                        <div class="scale_ram">
+                            <div id="progressBar6" class="scale"></div>
+                        </div>
+                        <p id="progress6">0%</p>
+                    </div>
+                    <p class="p_white">Fully Typed APIs</p>
+                    <p>Flexible programmatic APIs with full TypeScript typing.</p>
+                </div>
+            </div>
+            <h2 class="abbme">My Stack</h2>
+            <div class="my_dreams">
+                    <div class="languages">
+                        <p>Languages:</p>
+                        <ul>
+                            <li class="lip">C#</li>
+                            <li class="lip">Python</li>
+                            <li class="lip">Java Script</li>
+                            <li class="lip">С++</li>
+                            <li class="lip">Php</li>
+                            <li class="lip">Swift</li>
+                        </ul>
+                    </div>
+                    <div class="plauser"></div>
+                    <div class="FaD">
+                        <p>FrameWork and DBMS:</p>
+                        <ul>
+                            <li class="lip lip2">React</li>
+                            <li class="lip lip2">Django</li>
+                            <li class="lip lip2">MySQL</li>
+                            <li class="lip lip2">Vue.js</li>
+                            <li class="lip lip2">SQLite</li>
+                        </ul>
+                    </div>
+                    <div class="plauser"></div>
+                    <div class="programs">
+                        <p>Programs:</p>
+                        <ul>
+                            <li class="lip lip3">Visual Studio Code</li>
+                            <li class="lip lip3">Photoshop</li>
+                            <li class="lip lip3">Figma</li>
+                            <li class="lip lip3">PyCharm</li>
+                            <li class="lip lip3">Node.js</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="swiper-container">
+                <div class="slider swiper-wrapper">
+                    <div class="slider_item swiper-slide">
+                        <img src="img/p1.png" alt="">
+                        <div class="slider_text">
+                            <h2 class="title">Робота 1</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="slider_item  swiper-slide">
+                        <img src="img/p2.png" alt="">
+                        <div class="slider_text">
+                            <h2 class="title">Робота 2</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="slider_item  swiper-slide">
+                        <img src="img/p3.png" alt="">
+                        <div class="slider_text">
+                            <h2 class="title">Робота 3</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="slider_item  swiper-slide">
+                        <img src="img/p4.png" alt="">
+                        <div class="slider_text">
+                            <h2 class="title">Робота 4</h2>
+                        
+                        </div>
+                    </div>
+                    <div class="slider_item  swiper-slide">
+                        <img src="img/p5.png" alt="">
+                        <div class="slider_text">
+                            <h2 class="title">Робота 5</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="underline"></div></div>
+        <div class="footer">
+            <div class="block_info">
+                <p>Про мене</p>
+                <p>Про проект</p>
+                <p>Про мої плани</p>
+                <p>Про мої успіхи</p>
+                <p></p>
+            </div>
+            <div class="block_info">
+                <p></p>
+                <p>Зробив</p>
+                <p></p>
+                <p>Михайлов Михайло</p>
+            </div>
+            <div class="block_info">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="block_info">
+
+            </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/style.js"></script>
+</body>
+</html>
